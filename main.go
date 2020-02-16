@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Wasssup")
+	n, _ := fmt.Println("Wasssup")
+	fmt.Println(n)
+	// fmt.Println(err)
 }
