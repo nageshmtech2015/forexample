@@ -4,12 +4,11 @@ import "fmt"
 
 func main() {
 	x := 42
+	y := "James Bond"
+	z := true
+	fmt.Println(x, y, z)
 	fmt.Println(x)
-	x = 99
-	fmt.Println(x)
-	y := 100 + 70
 	fmt.Println(y)
-	z := "Nagesh V"
 	fmt.Println(z)
-	// fmt.Println(err)
+
 }
